@@ -1,0 +1,15 @@
+version: 0.2
+
+phases:
+  install:
+    on-failure: ABORT
+    commands:
+      - echo Dont do much
+  pre_build:
+    on-failure: ABORT
+    commands:
+      - echo Dont do much
+  build:
+    on-failure: ABORT
+    commands:
+      - echo Entered the build phase...
