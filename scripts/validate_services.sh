@@ -1,5 +1,5 @@
 #!/bin/sh
 echo "Validating deploy"
-rundic -h
+alias rundict='python3 /opt/CMDLineDic/rundict.py'; rundict -h
 
 
