@@ -1,9 +1,8 @@
 import argparse
 import requests
 
-
 # App  version
-version = '1.0.0'
+version = '1.0.1'
 
 # Lib for parsing arguments
 parser = argparse.ArgumentParser(
@@ -17,7 +16,6 @@ args = parser.parse_args()
 # Key and API endpoint
 key = "5949a3d3-0ae5-4e40-8232-aaa18792b7e8"  # could be added to a Secret Manager AWS/Vault services at HashiCorp/etc.
 url = f"https://www.dictionaryapi.com/api/v3/references/sd4/json/{args.word}?key={key}"
-
 
 if __name__ == "__main__":
 
