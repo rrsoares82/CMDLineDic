@@ -2,7 +2,7 @@ import argparse
 import requests
 
 # App  version
-version = '1.0.0'
+version = '1.0.1'
 
 # Lib for parsing arguments
 parser = argparse.ArgumentParser(
