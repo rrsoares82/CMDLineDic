@@ -2,7 +2,7 @@ import argparse
 import requests
 
 # App  version
-version = '1.0.1'
+version = '1.0.0'
 
 # Lib for parsing arguments
 parser = argparse.ArgumentParser(
@@ -44,5 +44,5 @@ if __name__ == "__main__":
 
         else:
             # future function to print all word meaning
-            print(f"Multiples meaning will be print on version version 1.0.1. Current version {version}")
+            print(f"Multiples meaning will be print on version version 2.0.0. Current version {version}")
             exit(0)
